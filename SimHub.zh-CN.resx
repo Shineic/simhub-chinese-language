@@ -1,0 +1,2192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GameConfigurationManager_Title" xml:space="preserve">
+    <value>游戏设定</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetryTabTitle" xml:space="preserve">
+    <value>遥测</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetrySettingsSection" xml:space="preserve">
+    <value>遥测设置</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetrySettings_NoSettingsAvailable" xml:space="preserve">
+    <value>没有可用的设定</value>
+  </data>
+  <data name="AboutPluginSDKLine1" xml:space="preserve">
+    <value>- 建立新资料</value>
+  </data>
+  <data name="AboutPluginSDKLine2" xml:space="preserve">
+    <value>- 建立新动作</value>
+  </data>
+  <data name="AboutPluginSDKLine3" xml:space="preserve">
+    <value>- 处理游戏数据</value>
+  </data>
+  <data name="AboutPluginSDKLine4" xml:space="preserve">
+    <value>以及更多 ！</value>
+  </data>
+  <data name="AboutPluginSDKLine5" xml:space="preserve">
+    <value>使用提供的C＃SDK构建自己的插件</value>
+  </data>
+  <data name="AboutPluginSdkOpenSDK" xml:space="preserve">
+    <value>开启 SIMHUB SDK</value>
+  </data>
+  <data name="AboutSDK" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AdditionalPlugins" xml:space="preserve">
+    <value>其他插件</value>
+  </data>
+  <data name="AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>您确定要在没有管理员权限的情况下运行吗？ 您可能会遇到游戏识别问题，并且某些功能(例如系统信息)不起作用。 您仍然可以随时通过SimHub设置启用管理员权限。</value>
+  </data>
+  <data name="AdministratorPrivilegesTitle" xml:space="preserve">
+    <value>管理员权限</value>
+  </data>
+  <data name="AdminPrivilegesAlert" xml:space="preserve">
+    <value>为了正常工作，SimHub需要管理员权限，您是否要立即启用它？</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>总在最前面</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ApplyChangesNow" xml:space="preserve">
+    <value>立即应用更改</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_OpenArduinoSetupTool" xml:space="preserve">
+    <value>打开Arduino设置工具</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ScanForNewDevicesNow" xml:space="preserve">
+    <value>立即扫描新设备</value>
+  </data>
+  <data name="ArduinoHardwareSettings_CheckBox_DisableDevice" xml:space="preserve">
+    <value>禁用设备</value>
+  </data>
+  <data name="ArduinoHardwareSettings_CheckBox_ReadButtons" xml:space="preserve">
+    <value>读取按钮</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_7SegmentsMod" xml:space="preserve">
+    <value>7段模式。</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ArduinoDisabled" xml:space="preserve">
+    <value>Arduino已禁用</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_CustomProtocol" xml:space="preserve">
+    <value>定制协议</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_DeviceName" xml:space="preserve">
+    <value>设备名称</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Motors" xml:space="preserve">
+    <value>马达</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_MultipleArduinos" xml:space="preserve">
+    <value>多个Arduinos</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NoDevicesDetected" xml:space="preserve">
+    <value>未检测到设备</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NotConnected" xml:space="preserve">
+    <value>未连接</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RgbLeds" xml:space="preserve">
+    <value>RGB leds</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ScanInProgress" xml:space="preserve">
+    <value>扫描中...</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SerialSpeed" xml:space="preserve">
+    <value>串行速度</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SingleArduino" xml:space="preserve">
+    <value>单个Arduino</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Unplugged" xml:space="preserve">
+    <value>-已拔掉</value>
+  </data>
+  <data name="ArduinoHardwareSettings_LinkButton_MoreInfos" xml:space="preserve">
+    <value>更多信息...</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_NeverScanSelectedPorts" xml:space="preserve">
+    <value>从不扫描所选端口</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_ScanAllSerialPorts" xml:space="preserve">
+    <value>扫描所有串行端口</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_ScanOnlySelectedPorts" xml:space="preserve">
+    <value>仅扫描选定的端口</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_ArduinoScanSettings" xml:space="preserve">
+    <value>Arduino扫描设置</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_DetectedHardware" xml:space="preserve">
+    <value>检测到的硬件</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_DevicesScan" xml:space="preserve">
+    <value>设备扫描</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_GeneralArduinoSettings" xml:space="preserve">
+    <value>Arduino一般设定</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_MultipleArduinoSettings" xml:space="preserve">
+    <value>Arduino的多种设置</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_ChooseHowManyArduinosYouWantToConnectToSimhub" xml:space="preserve">
+    <value>选择您要连接到SIMHUB的Arduino</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_LcdRefreshSpeed" xml:space="preserve">
+    <value>LCD刷新速度</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixFont" xml:space="preserve">
+    <value>矩阵字体</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixRedlineBlink" xml:space="preserve">
+    <value>矩阵redline闪烁</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixRotations" xml:space="preserve">
+    <value>矩阵旋转</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MultipleUsbInfo" xml:space="preserve">
+    <value>将多个USB聚集多个arduino作为单个Dash，请确保查看以下多个arduino设置。</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_NoDevicesConfigured" xml:space="preserve">
+    <value>未配置设备</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_SerialSpeed" xml:space="preserve">
+    <value>串行速度</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_UploadSketchInfo" xml:space="preserve">
+    <value>使用Arduino之前，您必须上传草图</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Button_GotoCarSettingsRedline" xml:space="preserve">
+    <value>自动设置 (Redline ...)</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Button_NewLayout" xml:space="preserve">
+    <value>新建布局</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Indicator_Common" xml:space="preserve">
+    <value>常见的</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Indicator_Idle" xml:space="preserve">
+    <value>空闲</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Indicator_Ingame" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Label_OrderingInfo" xml:space="preserve">
+    <value>事项次序 ! 使用拖放来重新排列您的led布局 | 双击编辑</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_SectionTitle_ManageYourRgbAndTm1638LedsLayouts" xml:space="preserve">
+    <value>管理您的RGB和TM1638 LED布局</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_TextBlock_RgbLedsBrightness" xml:space="preserve">
+    <value>RGB LED亮度</value>
+  </data>
+  <data name="ArduinoScreenList_Button_NewScreen" xml:space="preserve">
+    <value>新文本显示方式</value>
+  </data>
+  <data name="ArduinoScreenList_CheckBox_EnableLivePreview" xml:space="preserve">
+    <value>实时预览</value>
+  </data>
+  <data name="ArduinoScreenList_ForcedLedLayout_ToolTip" xml:space="preserve">
+    <value>强制LED布局</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Idle" xml:space="preserve">
+    <value>空闲</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Ingame" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="ArduinoScreenList_Label_OrderingInfo" xml:space="preserve">
+    <value>事项次序 ! 使用拖放操作来重新排列屏幕 | 双击编辑</value>
+  </data>
+  <data name="ArduinoScreenList_SectionTitle_ManageYourArduinoTextDisplays" xml:space="preserve">
+    <value>管理您的Arduino文本显示</value>
+  </data>
+  <data name="AutoDetectCurrentGame" xml:space="preserve">
+    <value>自动检测当前游戏</value>
+  </data>
+  <data name="AvailableProperties" xml:space="preserve">
+    <value>可用属性</value>
+  </data>
+  <data name="CarSettings_ActionPicker_DecrementRedlineValue" xml:space="preserve">
+    <value>Redline 极限阶段递减量</value>
+  </data>
+  <data name="CarSettings_ActionPicker_IncrementRedlineValue" xml:space="preserve">
+    <value>Redline 极限阶段增加量</value>
+  </data>
+  <data name="CarSettings_CheckBox_MaxFuel" xml:space="preserve">
+    <value>最大油量</value>
+  </data>
+  <data name="CarSettings_CheckBox_MaxRpm" xml:space="preserve">
+    <value>最大RPM</value>
+  </data>
+  <data name="CarSettings_CheckBox_MinimumDisplayedRpm" xml:space="preserve">
+    <value>最低显示RPM</value>
+  </data>
+  <data name="CarSettings_CheckBox_RedLine" xml:space="preserve">
+    <value>Redline (极限阶段)</value>
+  </data>
+  <data name="CarSettings_Label_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="CarSettings_Label_MinimumDisplayedRpmPercentOfMaxRpm" xml:space="preserve">
+    <value>显示的最低RPM (最大RPM的 %)</value>
+  </data>
+  <data name="CarSettings_Label_RedlineChangeStepsWhenCarIsKnownRpm" xml:space="preserve">
+    <value>已知汽车时的 Redline 极限阶段更改(RPM)</value>
+  </data>
+  <data name="CarSettings_Label_RedlineChangeStepsWhenCarIsNotKnownPercents" xml:space="preserve">
+    <value>未知汽车时的 Redline 极限阶段更改 (%)</value>
+  </data>
+  <data name="CarSettings_Label_RedLinePercentOfMaxRpm" xml:space="preserve">
+    <value>Redline 转速灯极限阶段 (最大RPM的 %)</value>
+  </data>
+  <data name="CarSettings_Label_ShiftLight1OffsetPercent" xml:space="preserve">
+    <value>ShiftLight 转速灯 1 阶段 (%)</value>
+  </data>
+  <data name="CarSettings_Label_ShiftLight2OffsetPercent" xml:space="preserve">
+    <value>ShiftLight 转速灯 2 阶段 (%)</value>
+  </data>
+  <data name="CarSettings_SectionTitle_CarSettingsOverrides" xml:space="preserve">
+    <value>汽车设置替代</value>
+  </data>
+  <data name="CarSettings_SectionTitle_DefaultCarSettingsForTheCurrentGame" xml:space="preserve">
+    <value>默认的汽车设置(针对当前游戏)</value>
+  </data>
+  <data name="Carssettings" xml:space="preserve">
+    <value>汽车设定</value>
+  </data>
+  <data name="ClearLicenseButton" xml:space="preserve">
+    <value>清除许可证</value>
+  </data>
+  <data name="ControlPicker_Label_PressType" xml:space="preserve">
+    <value>按类型</value>
+  </data>
+  <data name="ControlPicker_Label_WaitingForInput" xml:space="preserve">
+    <value>等待输入</value>
+  </data>
+  <data name="ControlPicker_WindowTitle" xml:space="preserve">
+    <value>选择一个控件</value>
+  </data>
+  <data name="ControlsAndEvents" xml:space="preserve">
+    <value>控制项和事件</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Add" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Change" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_ClickToConfigure" xml:space="preserve">
+    <value>点击配置</value>
+  </data>
+  <data name="ControlsEditor_MenuItem_TriggerNow" xml:space="preserve">
+    <value>立即触发</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_Alerts" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_Matrix" xml:space="preserve">
+    <value>矩阵</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_RgbMatrixExperimental" xml:space="preserve">
+    <value>RGB矩阵 (Experimental)</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_SevenSegmentModules" xml:space="preserve">
+    <value>七个细分模块</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_BrightnessColumnTitle" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_Checkbox_ReverseDisplay" xml:space="preserve">
+    <value>反向显示</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_MainIntensity" xml:space="preserve">
+    <value>主要强度</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_OrientationColumnTitle" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_LowFuelAlert" xml:space="preserve">
+    <value>燃油不足警报</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_MatrixIntensity" xml:space="preserve">
+    <value>矩阵强度</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_RepeatLowFuelAlert" xml:space="preserve">
+    <value>重复低油警报</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_RgbMatrixBrightness" xml:space="preserve">
+    <value>RGB矩阵亮度</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_RgbMatrixHighRpmColor" xml:space="preserve">
+    <value>高转速颜色</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_RgbMatrixLowRpmColor" xml:space="preserve">
+    <value>低转速颜色</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_ScreenDisplayAnnounce" xml:space="preserve">
+    <value>屏幕显示公告</value>
+  </data>
+  <data name="DonatorLicense" xml:space="preserve">
+    <value>执照</value>
+  </data>
+  <data name="EnableItNow" xml:space="preserve">
+    <value>立即启用</value>
+  </data>
+  <data name="ExitSimHub" xml:space="preserve">
+    <value>退出SimHub</value>
+  </data>
+  <data name="FeatureIncludedInDonatorVersion" xml:space="preserve">
+    <value>注册版本中包含的功能</value>
+  </data>
+  <data name="GameConnected" xml:space="preserve">
+    <value>游戏已连接</value>
+  </data>
+  <data name="GameDisconnected" xml:space="preserve">
+    <value>游戏已断开</value>
+  </data>
+  <data name="GameList_AutomaticSetup_AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>自动配置仅在以管理员身份运行时可用，您是否要立即启用它？</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedMessage" xml:space="preserve">
+    <value>出现问题，请确保游戏未运行或尝试手动安装。</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedTitle" xml:space="preserve">
+    <value>配置失败！</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulMessage" xml:space="preserve">
+    <value>现在，您可以将 {0} 与SimHub一起使用。</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulTitle" xml:space="preserve">
+    <value>配置成功！</value>
+  </data>
+  <data name="GameList_Button_StopReorganize" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="GameList_Label_YouCanNowShowHideAndReorganizeGames" xml:space="preserve">
+    <value>您现在可以显示、隐藏和重新组织游戏</value>
+  </data>
+  <data name="GameList_MenuItem_ManageShownGames" xml:space="preserve">
+    <value>管理显示的游戏</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItAutomatically" xml:space="preserve">
+    <value>自动修复</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItManually" xml:space="preserve">
+    <value>手动修复</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredWarnMessage" xml:space="preserve">
+    <value>{0} 遥测未配置</value>
+  </data>
+  <data name="GameNeedsConfiguration" xml:space="preserve">
+    <value>该游戏需要其他配置</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ClearLapHistoryForTheCurrentTrackAndCar" xml:space="preserve">
+    <value>清除当前赛道和赛车的圈速历史</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_CycleNextDashTemplate" xml:space="preserve">
+    <value>循环下一个仪表板模板</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_CyclePreviousDashTemplate" xml:space="preserve">
+    <value>循环上一个仪表板模板</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_DiscardCurrentMapAndRedrawIt" xml:space="preserve">
+    <value>舍弃当前地图并重绘</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowNextDashScreen" xml:space="preserve">
+    <value>显示下一个仪表板屏幕</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowPreviousDashScreen" xml:space="preserve">
+    <value>显示上一个仪表板屏幕</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionADependsOfTheDashDesign" xml:space="preserve">
+    <value>触发仪表板动作A(取决于仪表板设计)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionBDependsOfTheDashDesign" xml:space="preserve">
+    <value>触发仪表板动作B(取决于仪表板设计)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionCDependsOfTheDashDesign" xml:space="preserve">
+    <value>触发仪表板动作C(取决于仪表板设计)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionDDependsOfTheDashDesign" xml:space="preserve">
+    <value>触发仪表板动作D(取决于仪表板设计)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_CreateANewLayoutAndSavesMultipleOverlaysPositions_ToolTip" xml:space="preserve">
+    <value>创建一个新的布局并保存多个叠加位置</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_DashboardActionsEditDeleteDuplicate_ToolTip" xml:space="preserve">
+    <value>仪表板动作，编辑，删除，重复</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_More" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewDashboard" xml:space="preserve">
+    <value>新建仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewOverlay" xml:space="preserve">
+    <value>新建叠加层</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewOverlayLayout" xml:space="preserve">
+    <value>新建叠加层布局</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_OverlayActions_ToolTip" xml:space="preserve">
+    <value>叠加动作，编辑，删除，重复</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_SavesAllTheOppenedDashboardAndPositions_ToolTip" xml:space="preserve">
+    <value>保存所有打开的仪表板和位置</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_LASTUSED" xml:space="preserve">
+    <value>最近使用</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_Uncategorized" xml:space="preserve">
+    <value>未分类</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_CycleOnlyThroughFavouritesDash" xml:space="preserve">
+    <value>仅在收藏夹Dash中循环</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableDedicatedControls" xml:space="preserve">
+    <value>启用专用控件</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableOnDashNotifications" xml:space="preserve">
+    <value>启用Dash通知(Redline值/ Thrustmaster ffb值....)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EngineSpeedUseDataUpdateControlExperimental" xml:space="preserve">
+    <value>使用数据更新控件(实验性)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_FlashDashWhenRedlineIsReached" xml:space="preserve">
+    <value>到达Redline时闪烁Dash</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_KeepOverlayLayoutEditorMinimizedOnLayoutLoad" xml:space="preserve">
+    <value>使叠加布局编辑器在布局负载上最小化</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowLastUsedDashsOnTopOfTheList" xml:space="preserve">
+    <value>在列表顶部显示上次使用的Dash</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowLeaderboardGapRelativeToPlayer" xml:space="preserve">
+    <value>显示排行榜相对于玩家的差距(否则相对于领导者)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_StartDashInAlwaysOnTopModeByDefault" xml:space="preserve">
+    <value>默认情况下以“总是在最前面”模式开始Dash</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480EnableTouchscreen" xml:space="preserve">
+    <value>启用触摸屏</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480EnableUsbd480Display" xml:space="preserve">
+    <value>启用USBD480显示</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480FlipDisplay180" xml:space="preserve">
+    <value>翻转显示(180°)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480SpecificIdleDashboard" xml:space="preserve">
+    <value>特定的空闲仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480StopBacklightOnExit" xml:space="preserve">
+    <value>退出时停止背光</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480StopBacklightWhenNotPlaying" xml:space="preserve">
+    <value>不玩时停止背光</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_UsePlayerCarClassLeaderboards" xml:space="preserve">
+    <value>使用玩家汽车类排行榜(当汽车类可用)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CloseAllButton" xml:space="preserve">
+    <value>关闭所有</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_PhoneTablet" xml:space="preserve">
+    <value>在手机或平板电脑上</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SecondaryMonitor" xml:space="preserve">
+    <value>在辅助显示器上</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SpecificMonitor" xml:space="preserve">
+    <value>在特定显示器上</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_USBD480Screen" xml:space="preserve">
+    <value>在USBD480屏幕上</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_Windowed" xml:space="preserve">
+    <value>Windowed</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_DesktopEngine" xml:space="preserve">
+    <value>桌面引擎</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RecentUsedDashsToKeepOnTopOfTheList" xml:space="preserve">
+    <value>最近使用的Dash位居榜首</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RedlineFlashColor" xml:space="preserve">
+    <value>RedLine闪烁颜色:</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RedlineFlashOpacity" xml:space="preserve">
+    <value>RedLine不透明度:</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_TheseSettingsAppliesOnlyToDonatorEdition" xml:space="preserve">
+    <value>这些设置仅适用于许可版和较高的游戏数据刷新速度(请参阅SimHub设置)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ThisOverlayIsTooLargeAlert" xml:space="preserve">
+    <value>该叠加层太大，无法启动，请分成较小的部分</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480Brightness" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480DisplayedDashboard" xml:space="preserve">
+    <value>显示的仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDevice" xml:space="preserve">
+    <value>网络设备:</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDeviceLastSeen" xml:space="preserve">
+    <value>(上次查看:{0})</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebEngine" xml:space="preserve">
+    <value>网络引擎</value>
+  </data>
+  <data name="GraphicalDashPluginList_LinkButton_OnlyShowFavouritesDashboards" xml:space="preserve">
+    <value>仅显示收藏夹仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_LinkButton_ShowAllDashboards" xml:space="preserve">
+    <value>显示所有仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_LinkButton_WebDeviceForget" xml:space="preserve">
+    <value>忘记</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_AllowRedlineFlash" xml:space="preserve">
+    <value>允许Redline闪烁</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_Category" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ConvertToOverlay" xml:space="preserve">
+    <value>转换为叠加</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DeleteDashboard" xml:space="preserve">
+    <value>删除仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DeleteOverlay" xml:space="preserve">
+    <value>删除叠加</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DuplicateDashboard" xml:space="preserve">
+    <value>仪表板重复</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DuplicateOverlay" xml:space="preserve">
+    <value>重复叠加</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_EditDashboard" xml:space="preserve">
+    <value>编辑仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ExportDashboard" xml:space="preserve">
+    <value>导出仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ExportOverlay" xml:space="preserve">
+    <value>导出叠加</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_GetOBSAddress" xml:space="preserve">
+    <value>将OBS浏览器地址复制到剪贴板</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_UseHtmlEngine" xml:space="preserve">
+    <value>使用HTML引擎(可以更流畅)</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenInBrowser" xml:space="preserve">
+    <value>在浏览器中打开</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenPhoneTablet" xml:space="preserve">
+    <value>在手机或平板电脑中打开</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedFast" xml:space="preserve">
+    <value>快</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedSlow" xml:space="preserve">
+    <value>慢</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedVeryFast" xml:space="preserve">
+    <value>非常快</value>
+  </data>
+  <data name="GraphicalDashPluginList_RestoreLayoutButton" xml:space="preserve">
+    <value>恢复布局</value>
+  </data>
+  <data name="GraphicalDashPluginList_SaveLayoutButton" xml:space="preserve">
+    <value>保存布局</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleAVAILABLEDASHBOARDS" xml:space="preserve">
+    <value>可用的仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleAVAILABLEOVERLAYS" xml:space="preserve">
+    <value>可用叠加</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSAVEDOVERLAYLAYOUTS" xml:space="preserve">
+    <value>保存的叠加布局</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDASHDISPLAY" xml:space="preserve">
+    <value>仪表板显示</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDEFAULTCONTROLS" xml:space="preserve">
+    <value>默认控件</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDEVICECONTROLS" xml:space="preserve">
+    <value>每个设备的控件(平板电脑/电话...)</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsLEADERBOARDS" xml:space="preserve">
+    <value>排行榜</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsOVERLAYDISPLAY" xml:space="preserve">
+    <value>叠加显示</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsPERFORMANCE" xml:space="preserve">
+    <value>性能</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Usbd480Controls" xml:space="preserve">
+    <value>USBD480 控制项</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Usbd480Lcd" xml:space="preserve">
+    <value>USBD480 LCD</value>
+  </data>
+  <data name="GraphicalDashPluginList_StartButton" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemDashboards" xml:space="preserve">
+    <value>仪表板</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemOverlays" xml:space="preserve">
+    <value>叠加</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemUSBD480" xml:space="preserve">
+    <value>USBD480</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_DashStudioAlsoWorksInYourBrowserOrPhone" xml:space="preserve">
+    <value>Dash Studio也可以在您的浏览器或手机中使用</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Load" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_NewLayout" xml:space="preserve">
+    <value>新建布局</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_Favourite_ToolTip" xml:space="preserve">
+    <value>收藏夹</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_OpenOverlayOnStartup_ToolTip" xml:space="preserve">
+    <value>启动时打开叠加</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_OpenTheDashOnStartup_ToolTip" xml:space="preserve">
+    <value>在启动时打开仪表</value>
+  </data>
+  <data name="HigherProcessPriority" xml:space="preserve">
+    <value>更高的进程优先级</value>
+  </data>
+  <data name="HigherProcessPriorityComment" xml:space="preserve">
+    <value>对于CPU密集型游戏很有用，如果不需要，请不要启用它。</value>
+  </data>
+  <data name="Laphistory_DeleteSessionMenuItem" xml:space="preserve">
+    <value>删除会话</value>
+  </data>
+  <data name="Laphistory_RECENTSESSIONS" xml:space="preserve">
+    <value>最近会议</value>
+  </data>
+  <data name="Live" xml:space="preserve">
+    <value>直播</value>
+  </data>
+  <data name="LoadLicenseButton" xml:space="preserve">
+    <value>加载许可证</value>
+  </data>
+  <data name="LogsClearLogsButton" xml:space="preserve">
+    <value>清除日志</value>
+  </data>
+  <data name="LogsOpenLogFolderButton" xml:space="preserve">
+    <value>打开日志文件夹</value>
+  </data>
+  <data name="MainWindowPaneWidth" xml:space="preserve">
+    <value>190</value>
+  </data>
+  <data name="MainWindowStatusbarListeningPort" xml:space="preserve">
+    <value>监听UDP端口{0}</value>
+  </data>
+  <data name="MainWindowStatusbarUDPForwardedTo" xml:space="preserve">
+    <value>转发到{0}</value>
+  </data>
+  <data name="MainWindowToolbarDiscordServerLink" xml:space="preserve">
+    <value>Discord服务器</value>
+  </data>
+  <data name="MainWindowToolbarLicenseStatus" xml:space="preserve">
+    <value>状态 :</value>
+  </data>
+  <data name="MainWindowToolbarNewVersionAvailable" xml:space="preserve">
+    <value>新版本可用:</value>
+  </data>
+  <data name="MainWindowToolbarRefreshRate" xml:space="preserve">
+    <value>刷新率 :</value>
+  </data>
+  <data name="MainWindowToolbarWikiLink" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="MinimizeInTray" xml:space="preserve">
+    <value>最小化托盘</value>
+  </data>
+  <data name="MoreTab" xml:space="preserve">
+    <value>更多 ...</value>
+  </data>
+  <data name="NewPluginDetectedMessage" xml:space="preserve">
+    <value>SimHub检测到一个新插件:{0}
+您要立即启用它吗？ 您可以随时通过设置进行操作</value>
+  </data>
+  <data name="NewPluginDetectedTitle" xml:space="preserve">
+    <value>检测到新插件</value>
+  </data>
+  <data name="NextionSettingsControlWPF_SectionTitle_ManageYourNextionScreens" xml:space="preserve">
+    <value>管理你的 Nextion屏幕</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_NextPage" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_PreviousPage" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="NextionSettingsItem_Button_Apply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="NextionSettingsItem_Button_EditMapping" xml:space="preserve">
+    <value>编辑映射</value>
+  </data>
+  <data name="NextionSettingsItem_Button_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_DebugMode" xml:space="preserve">
+    <value>调试模式</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_Enabled" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_PowerOffScreenWhenNotInGame" xml:space="preserve">
+    <value>不在游戏中时关闭电源屏幕</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_UseEditor" xml:space="preserve">
+    <value>使用编辑器</value>
+  </data>
+  <data name="NextionSettingsItem_CustomNumericUpDown_HowManyLedsAreInstalled_ToolTip" xml:space="preserve">
+    <value>安装了几个LED(仅限arduino)</value>
+  </data>
+  <data name="NextionSettingsItem_Label_ControlsDebouncing" xml:space="preserve">
+    <value>控制去抖动(毫秒)</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Latency" xml:space="preserve">
+    <value>延迟时间</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Leds" xml:space="preserve">
+    <value>LEDS</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Mapping" xml:space="preserve">
+    <value>制图</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Nextion" xml:space="preserve">
+    <value>Nextion #</value>
+  </data>
+  <data name="NextionSettingsItem_Label_SerialPort" xml:space="preserve">
+    <value>串行端口</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Template" xml:space="preserve">
+    <value>范本</value>
+  </data>
+  <data name="NoThanks" xml:space="preserve">
+    <value>不用了，谢谢</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpenGameInstructions" xml:space="preserve">
+    <value>公开说明</value>
+  </data>
+  <data name="OverlayEditor_AddOverlay" xml:space="preserve">
+    <value>添加叠加</value>
+  </data>
+  <data name="OverlayEditor_AddParts_AddButton" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="OverlayEditor_AddParts_OkButton" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OverlayEditor_EditLayoutButton" xml:space="preserve">
+    <value>编辑布局</value>
+  </data>
+  <data name="OverlayEditor_HideWhenNotInRaceCheckbox" xml:space="preserve">
+    <value>不参加比赛时躲起来</value>
+  </data>
+  <data name="OverlayEditor_SaveLayoutbutton" xml:space="preserve">
+    <value>保存布局</value>
+  </data>
+  <data name="OverlayEditor_StopEdit" xml:space="preserve">
+    <value>停止编辑</value>
+  </data>
+  <data name="OverlayEditor_WaitingForGame" xml:space="preserve">
+    <value>等待比赛</value>
+  </data>
+  <data name="OverlayEditor_WindowedBorderlessModeAlert" xml:space="preserve">
+    <value>确保以窗口模式或无边框模式配置游戏</value>
+  </data>
+  <data name="OverlayEditor_WindowTitle" xml:space="preserve">
+    <value>叠加布局编辑器</value>
+  </data>
+  <data name="PasteLicenseButton" xml:space="preserve">
+    <value>粘贴许可证</value>
+  </data>
+  <data name="PasteLicenseContent" xml:space="preserve">
+    <value>粘贴许可证内容:</value>
+  </data>
+  <data name="PluginDescription_AfterburnerPlugin" xml:space="preserve">
+    <value>连接到Afterburner，并提供CPU，GPU和帧率数据</value>
+  </data>
+  <data name="PluginDescription_AudioControlPlugin" xml:space="preserve">
+    <value>音频控制</value>
+  </data>
+  <data name="PluginDescription_BA63Plugin" xml:space="preserve">
+    <value>连接Diebold Nixdorf BA63显示器</value>
+  </data>
+  <data name="PluginDescription_GmailPlugin" xml:space="preserve">
+    <value>连接到您的Gmail帐户并访问您最近的邮件</value>
+  </data>
+  <data name="PluginDescription_HeadsetInfo" xml:space="preserve">
+    <value>提供G533电池电量信息(实验)</value>
+  </data>
+  <data name="PluginDescription_JoystickPlugin" xml:space="preserve">
+    <value>允许读取游戏控制器(滚轮，游戏手柄，按钮框)的数据</value>
+  </data>
+  <data name="PluginDescription_KeyboardEmulatorPlugin" xml:space="preserve">
+    <value>允许您从任何SimHub输入模拟按键</value>
+  </data>
+  <data name="PluginDescription_KeyboardReaderPlugin" xml:space="preserve">
+    <value>允许读取键盘输入(谨慎使用)</value>
+  </data>
+  <data name="PluginDescription_NextionPlugin" xml:space="preserve">
+    <value>提供对Nextion屏幕的支持</value>
+  </data>
+  <data name="PluginDescription_ShakeItBassShakersPlugin" xml:space="preserve">
+    <value>提供适用于低音振动器的ShakeIt(隆隆声引擎)功能</value>
+  </data>
+  <data name="PluginDescription_ShakeItPlugin" xml:space="preserve">
+    <value>提供ShakeIt(隆隆的引擎)功能</value>
+  </data>
+  <data name="PluginDescription_SystemInfoPlugin" xml:space="preserve">
+    <value>提供系统监视信息(基于OpenHardwareMonitor API)</value>
+  </data>
+  <data name="PluginDescription_ThrustmastersPlugin" xml:space="preserve">
+    <value>允许您在游戏中控制Thrustmaster FFB</value>
+  </data>
+  <data name="PluginDescription_UDPRelayPlugin" xml:space="preserve">
+    <value>UDP中继插件允许从游戏(如Codemaster)接收UDP数据并将其发送到多个目标</value>
+  </data>
+  <data name="PluginName_AfterburnerPlugin" xml:space="preserve">
+    <value>Afterburner连接器</value>
+  </data>
+  <data name="PluginName_AudioControlPlugin" xml:space="preserve">
+    <value>音频控制</value>
+  </data>
+  <data name="PluginName_BA63Plugin" xml:space="preserve">
+    <value>BA63 USB 显示器插件</value>
+  </data>
+  <data name="PluginName_DataCorePlugin" xml:space="preserve">
+    <value>核心数据</value>
+  </data>
+  <data name="PluginName_GmailPlugin" xml:space="preserve">
+    <value>Gmail</value>
+  </data>
+  <data name="PluginName_GraphicalDashPlugin" xml:space="preserve">
+    <value>Dash工作室</value>
+  </data>
+  <data name="PluginName_HeadsetInfo" xml:space="preserve">
+    <value>耳机信息</value>
+  </data>
+  <data name="PluginName_JoystickPlugin" xml:space="preserve">
+    <value>控制器输入</value>
+  </data>
+  <data name="PluginName_KeyboardEmulatorPlugin" xml:space="preserve">
+    <value>键盘模拟器</value>
+  </data>
+  <data name="PluginName_KeyboardReaderPlugin" xml:space="preserve">
+    <value>键盘输入</value>
+  </data>
+  <data name="PluginName_NextionPlugin" xml:space="preserve">
+    <value>Nextion显示器</value>
+  </data>
+  <data name="PluginName_PersistantTrackerPlugin" xml:space="preserve">
+    <value>统计</value>
+  </data>
+  <data name="PluginName_SerialDashPlugin" xml:space="preserve">
+    <value>Arduino</value>
+  </data>
+  <data name="PluginName_ShakeItBassShakersPlugin" xml:space="preserve">
+    <value>ShakeIt低音震动</value>
+  </data>
+  <data name="PluginName_ShakeItPlugin" xml:space="preserve">
+    <value>ShakeIt</value>
+  </data>
+  <data name="PluginName_ShellPlugin" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="PluginName_SystemInfoPlugin" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="PluginName_ThrustmastersPlugin" xml:space="preserve">
+    <value>Thrustmasters FFB控制</value>
+  </data>
+  <data name="PluginName_UDPRelayPlugin" xml:space="preserve">
+    <value>UDP中继</value>
+  </data>
+  <data name="PropertiesAvailablePropertiesSection" xml:space="preserve">
+    <value>可用属性</value>
+  </data>
+  <data name="PropertiesComputedLabel" xml:space="preserve">
+    <value>支持</value>
+  </data>
+  <data name="PropertiesComputedLabelTooltip" xml:space="preserve">
+    <value>SimHub可以为当前游戏计算此属性</value>
+  </data>
+  <data name="PropertiesFilterTextBoxWatermark" xml:space="preserve">
+    <value>属性过滤器...</value>
+  </data>
+  <data name="PropertiesNcalcTesterButton" xml:space="preserve">
+    <value>Ncalc测试</value>
+  </data>
+  <data name="PropertiesNewWindowButton" xml:space="preserve">
+    <value>新窗口</value>
+  </data>
+  <data name="PropertiesNotSupportedLabel" xml:space="preserve">
+    <value>不支持</value>
+  </data>
+  <data name="PropertiesNotSupportedLabelTooltip" xml:space="preserve">
+    <value>当前游戏不支持此属性</value>
+  </data>
+  <data name="PropertiesPicker_TextBoxWatermark_TypeToFilter" xml:space="preserve">
+    <value>输入要过滤的内容...</value>
+  </data>
+  <data name="PropertiesPicker_Title" xml:space="preserve">
+    <value>属性选择器</value>
+  </data>
+  <data name="PropertiesShowGameSpecificPropertiesCheckbox" xml:space="preserve">
+    <value>显示游戏特定的属性(“原始数据”)</value>
+  </data>
+  <data name="RecordToolTip" xml:space="preserve">
+    <value>记录游戏数据以供以后离线使用</value>
+  </data>
+  <data name="Replay" xml:space="preserve">
+    <value>回放</value>
+  </data>
+  <data name="ReplayLastGameRecordButton" xml:space="preserve">
+    <value>回放上一场比赛记录</value>
+  </data>
+  <data name="ReplaySpeed" xml:space="preserve">
+    <value>回放速度</value>
+  </data>
+  <data name="RestoreSimHub" xml:space="preserve">
+    <value>恢复SimHub</value>
+  </data>
+  <data name="RunAsAdministratorOption" xml:space="preserve">
+    <value>以管理员身份运行</value>
+  </data>
+  <data name="RunAsAdministratorOptionComment" xml:space="preserve">
+    <value>有助于获取所有系统信息(例如温度)或解决一些游戏检测问题</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SettingsAccentOption" xml:space="preserve">
+    <value>音效</value>
+  </data>
+  <data name="SettingsAdjustMinimumTyreWearOption" xml:space="preserve">
+    <value>调整最小轮胎磨损(报告的游戏数据中的百分比)</value>
+  </data>
+  <data name="SettingsChangeSpeedlocalPropertyUnitOption" xml:space="preserve">
+    <value>更改“地方性速度”属性单位</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_Brightness" xml:space="preserve">
+    <value>亮度 +</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_BrightnessMinus" xml:space="preserve">
+    <value>亮度 -</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowFirstLedLayout" xml:space="preserve">
+    <value>显示第一个LED布局</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowFirstScreen" xml:space="preserve">
+    <value>显示第一个屏幕</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowNextLedLayout" xml:space="preserve">
+    <value>显示下一个LED布局</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowNextScreen" xml:space="preserve">
+    <value>显示下一个屏幕</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowPreviousLedLayout" xml:space="preserve">
+    <value>显示上一个led布局</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowPreviousScreen" xml:space="preserve">
+    <value>显示上一个画面</value>
+  </data>
+  <data name="SettingsControlWPF_Label_MoreActionsAvailableInControlsAndEventsControlsSection" xml:space="preserve">
+    <value>控件和事件＆gt中提供了更多操作；控制部分</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_7Segments20X4LcdControls" xml:space="preserve">
+    <value>7段/ 20x4 LCD控件</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_RgbLedsControl" xml:space="preserve">
+    <value>RGB LED控制</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_DisplayAlerts" xml:space="preserve">
+    <value>显示和警报</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Gauges" xml:space="preserve">
+    <value>汽车仪表</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Leds" xml:space="preserve">
+    <value>LED</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_MyHardware" xml:space="preserve">
+    <value>我的硬件</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Screens" xml:space="preserve">
+    <value>屏幕</value>
+  </data>
+  <data name="SettingsCurrentGameSettingsSectionTitle" xml:space="preserve">
+    <value>{0}设置</value>
+  </data>
+  <data name="SettingsDebugModeOption" xml:space="preserve">
+    <value>调试模式</value>
+  </data>
+  <data name="SettingsDebugModeOptionComment" xml:space="preserve">
+    <value>启用详细日志记录，除故障排除外请勿使用</value>
+  </data>
+  <data name="SettingsDeveloperToolsTab" xml:space="preserve">
+    <value>开发者工具</value>
+  </data>
+  <data name="SettingsDumpActionsList" xml:space="preserve">
+    <value>转储操作列表</value>
+  </data>
+  <data name="SettingsEnabledPluginsSection" xml:space="preserve">
+    <value>启用的插件</value>
+  </data>
+  <data name="SettingsForwardUdpTo" xml:space="preserve">
+    <value>转发到</value>
+  </data>
+  <data name="SettingsFuelUnitOption" xml:space="preserve">
+    <value>油量单位</value>
+  </data>
+  <data name="SettingsGameShowInstructions" xml:space="preserve">
+    <value>(显示说明)</value>
+  </data>
+  <data name="SettingsGamesTitle" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="SettingsGameUdpPort" xml:space="preserve">
+    <value>UDP端口</value>
+  </data>
+  <data name="SettingsGapComputationModeOption" xml:space="preserve">
+    <value>差距计算模式</value>
+  </data>
+  <data name="SettingsGeneralSection" xml:space="preserve">
+    <value>常规设置</value>
+  </data>
+  <data name="SettingsGeneralTab" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="SettingShowGameOption" xml:space="preserve">
+    <value>在首页显示游戏</value>
+  </data>
+  <data name="SettingsLangageAuthor" xml:space="preserve">
+    <value>邮箱 : Vciy@icloud.com</value>
+  </data>
+  <data name="SettingsLangageOption" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="SettingsLapTrackingAndLeaderboardsSesction" xml:space="preserve">
+    <value>单圈跟踪和排行榜</value>
+  </data>
+  <data name="SettingsLooknfeelSection" xml:space="preserve">
+    <value>设置外观部分</value>
+  </data>
+  <data name="SettingsPluginsTab" xml:space="preserve">
+    <value>插件</value>
+  </data>
+  <data name="SettingsPreferredUnitsSection" xml:space="preserve">
+    <value>首选单位</value>
+  </data>
+  <data name="SettingsPressureUnitOption" xml:space="preserve">
+    <value>压力单位</value>
+  </data>
+  <data name="SettingsRequiresASimhubRestart" xml:space="preserve">
+    <value>需要重启SimHub</value>
+  </data>
+  <data name="SettingsRestoreDefaultForwardPort" xml:space="preserve">
+    <value>恢复默认转发端口</value>
+  </data>
+  <data name="SettingsRestoreDefaultPort" xml:space="preserve">
+    <value>恢复默认端口</value>
+  </data>
+  <data name="SettingsSpeedUnitOption" xml:space="preserve">
+    <value>速度单位</value>
+  </data>
+  <data name="SettingsTemperatureUnitOption" xml:space="preserve">
+    <value>温度单位</value>
+  </data>
+  <data name="SettingsThemeOption" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="SettingsUseAllTimeBestWhenNoSessionBestIsAvailableOption" xml:space="preserve">
+    <value>如果没有最佳会议，请全天候使用</value>
+  </data>
+  <data name="SettingsUseAllTimeBestWhenNoSessionBestIsAvailableOptionComment" xml:space="preserve">
+    <value>始终获得会话最佳相对数据的参考时间和差距</value>
+  </data>
+  <data name="SettingsWebServerPortOption" xml:space="preserve">
+    <value>Web服务器端口(TCP)</value>
+  </data>
+  <data name="SettingsWebSocketPort" xml:space="preserve">
+    <value>Web插座端口(TCP)</value>
+  </data>
+  <data name="ShowSimhubFps" xml:space="preserve">
+    <value>显示SimHub FPS</value>
+  </data>
+  <data name="ShowSimHubFpsComment" xml:space="preserve">
+    <value>在SimHub窗口底部显示数据更新速度计数器</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>开始游戏</value>
+  </data>
+  <data name="StartMinimized" xml:space="preserve">
+    <value>最小化启动</value>
+  </data>
+  <data name="StartWithWindows" xml:space="preserve">
+    <value>随 Windows 启动</value>
+  </data>
+  <data name="SystemLog" xml:space="preserve">
+    <value>系统日志</value>
+  </data>
+  <data name="ThanksForYourSupport" xml:space="preserve">
+    <value>感谢您对SimHub项目的支持，
+我希望你会喜欢它。
+
+沃特</value>
+  </data>
+  <data name="PluginDescription_ShakeITBSV3Plugin" xml:space="preserve">
+    <value>为低音振动器提供ShakeIt(触觉反馈)功能</value>
+  </data>
+  <data name="PluginDescription_ShakeITMotorsV3Plugin" xml:space="preserve">
+    <value>为电机和风扇提供ShakeIt(触觉反馈)功能</value>
+  </data>
+  <data name="PluginName_ShakeITBSV3Plugin" xml:space="preserve">
+    <value>ShakeIt低音振动器</value>
+  </data>
+  <data name="PluginName_ShakeITMotorsV3Plugin" xml:space="preserve">
+    <value>ShakeIt马达</value>
+  </data>
+  <data name="UDPPort" xml:space="preserve">
+    <value>UDP端口</value>
+  </data>
+  <data name="LangageName" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="GameList_ConfigurationButton" xml:space="preserve">
+    <value>{0} 配置</value>
+  </data>
+  <data name="GameConfigurationManager_UDPTelemetryInfo" xml:space="preserve">
+    <value>该游戏使用UDP遥测，UDP需要选择一个UDP端口。警告单个应用程序一次可以读取一个UDP端口</value>
+  </data>
+  <data name="GameConfigurationManager_ForwardUDPInformation" xml:space="preserve">
+    <value>转发UDP数据将允许您提供在同一台计算机(127.0.0.1)或远程计算机/设备上运行的其他应用程序，请确保在此处定义的端口上对其进行配置。</value>
+  </data>
+  <data name="GameConfigurationManager_UDPForwardingTitle" xml:space="preserve">
+    <value>UDP转发</value>
+  </data>
+  <data name="GameConfigurationManager_AutomaticGameConfigurationTitle" xml:space="preserve">
+    <value>自动游戏配置</value>
+  </data>
+  <data name="GameConfigurationManager_GameIsProperlyConfiguredInfo" xml:space="preserve">
+    <value>游戏配置正确</value>
+  </data>
+  <data name="GameConfigurationManager_ConfigureGameNowButton" xml:space="preserve">
+    <value>立即配置游戏</value>
+  </data>
+  <data name="GameConfigurationManager_SimHubCanTConfigureTheGameInformation" xml:space="preserve">
+    <value>SimHub无法配置游戏，请确保已安装并运行一次以创建游戏配置文件</value>
+  </data>
+  <data name="GameConfigurationManager_ManualGameConfigurationTitle" xml:space="preserve">
+    <value>手动游戏配置</value>
+  </data>
+  <data name="GameConfigurationManager_ThisGameRequiresAManualConfigurationInformation" xml:space="preserve">
+    <value>该游戏需要手动配置</value>
+  </data>
+  <data name="GameConfigurationManager_LauncherActionTabTitle" xml:space="preserve">
+    <value>启动器操作</value>
+  </data>
+  <data name="GameConfigurationManager_HavingGameConnectivityIssuesInformation" xml:space="preserve">
+    <value>遇到游戏连接问题吗？ 打开故障排除指南</value>
+  </data>
+  <data name="GameConfigurationManager_CloseButton" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="GameConfigurationManager_GameTelemetryUDPPort" xml:space="preserve">
+    <value>游戏遥测UDP端口</value>
+  </data>
+  <data name="GameConfigurationManager_ForwardUDPPacketsTo" xml:space="preserve">
+    <value>将UDP数据包转发到</value>
+  </data>
+  <data name="CarSettings_LastCarUsed" xml:space="preserve">
+    <value>最后一辆车</value>
+  </data>
+  <data name="CarSettings_OtherCars" xml:space="preserve">
+    <value>其他汽车</value>
+  </data>
+  <data name="CarSettings_ForgetAll" xml:space="preserve">
+    <value>忘记所有</value>
+  </data>
+  <data name="DefaultLauncherControl_Arguments" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DefaultLauncherControl_DefineCustomPath" xml:space="preserve">
+    <value>定义自定义路径</value>
+  </data>
+  <data name="DefaultLauncherControl_LaunchUsingDefaultMethod" xml:space="preserve">
+    <value>使用默认方法启动</value>
+  </data>
+  <data name="DefaultLauncherControl_Target" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="GameConfigurationManager_GameIsNotConfiguredInformation" xml:space="preserve">
+    <value>游戏未配置</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="CarSettings_Forget" xml:space="preserve">
+    <value>忘记</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Button_Emulator" xml:space="preserve">
+    <value>模拟器</value>
+  </data>
+  <data name="ControlsAndEvents_EventsTabTitle" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="ControlsAndEvents_ControllersStatusTabTitle" xml:space="preserve">
+    <value>控制器状态</value>
+  </data>
+  <data name="ControlsAndEvents_ThrustmasterManagerTabTitle" xml:space="preserve">
+    <value>图马思特管理器</value>
+  </data>
+  <data name="ControlsAndEvents_KeyboardEmulationTabTitle" xml:space="preserve">
+    <value>键盘模拟</value>
+  </data>
+  <data name="JoystickPlugin_CONNECTEDCONTROLLERSTitle" xml:space="preserve">
+    <value>连接的控制器</value>
+  </data>
+  <data name="JoystickPlugin_Diagnostic" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="JoystickPlugin_YouCanUseTheseControllersInTheControlsSettings" xml:space="preserve">
+    <value>您可以在“控件”设置中使用这些控制器</value>
+  </data>
+  <data name="JoystickPlugin_ShowInputs" xml:space="preserve">
+    <value>显示输入</value>
+  </data>
+  <data name="ControlsAndEvents_MANAGEYOURCONTROLLERSACTIONS" xml:space="preserve">
+    <value>管理您的控制器动作</value>
+  </data>
+  <data name="NewMapping" xml:space="preserve">
+    <value>新建映射</value>
+  </data>
+  <data name="ControlsAndEvents_MANAGEEVENTSTRIGGERS" xml:space="preserve">
+    <value>管理事件触发</value>
+  </data>
+  <data name="ShakeItSettings_EffectsProfile" xml:space="preserve">
+    <value>效果文件</value>
+  </data>
+  <data name="ShakeITSettings_ConfigureOutputs" xml:space="preserve">
+    <value>配置输出</value>
+  </data>
+  <data name="ShakeITSettings_NoActiveOutputs" xml:space="preserve">
+    <value>无有效输出</value>
+  </data>
+  <data name="ShakeItSettings_EditProfile" xml:space="preserve">
+    <value>编辑文件</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager" xml:space="preserve">
+    <value>文件管理器</value>
+  </data>
+  <data name="ShakeItSettings_AddEffect" xml:space="preserve">
+    <value>添加效果</value>
+  </data>
+  <data name="ShakeItSettings_AddGroup" xml:space="preserve">
+    <value>添加组</value>
+  </data>
+  <data name="ShakeItSettings_PasteEffect" xml:space="preserve">
+    <value>粘贴效果</value>
+  </data>
+  <data name="ShakeItSettings_Dashboard" xml:space="preserve">
+    <value>仪表板</value>
+  </data>
+  <data name="ShakeItSettings_ResetCalibration" xml:space="preserve">
+    <value>重置校准</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_AVAILABLEPROFILES" xml:space="preserve">
+    <value>可用配置文件</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_NEWPROFILE" xml:space="preserve">
+    <value>新建文件</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_CloneProfile" xml:space="preserve">
+    <value>克隆文件</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_DeleteProfile" xml:space="preserve">
+    <value>删除文件</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_ImportProfile" xml:space="preserve">
+    <value>输入文件</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_ExportProfile" xml:space="preserve">
+    <value>输出文件</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_LOAD" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ShakeItSettings_SoundOutput" xml:space="preserve">
+    <value>声音输出</value>
+  </data>
+  <data name="ShakeItSettings_MotorsOutput" xml:space="preserve">
+    <value>电机输出</value>
+  </data>
+  <data name="ShakeItSettings_OUTPUTSELECTION" xml:space="preserve">
+    <value>输出选择</value>
+  </data>
+  <data name="ShakeItSettings_ENABLEOUTPUT" xml:space="preserve">
+    <value>使能输出</value>
+  </data>
+  <data name="ShakeItSettings_OpenWindowsSoundSettings" xml:space="preserve">
+    <value>打开Windows声音设置</value>
+  </data>
+  <data name="ShakeItSettings_TestNow" xml:space="preserve">
+    <value>现在测试</value>
+  </data>
+  <data name="ShakeItSettings_ShowPerEffectGain" xml:space="preserve">
+    <value>显示效果增益</value>
+  </data>
+  <data name="ShakeItSettings_Reset" xml:space="preserve">
+    <value>重设</value>
+  </data>
+  <data name="ShakeItSettings_Export" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="ShakeItSettings_Import" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="RecordSettings_TelemetryRecordSettings" xml:space="preserve">
+    <value>遥测记录设置</value>
+  </data>
+  <data name="RecordSettings_CaptureFPS" xml:space="preserve">
+    <value>捕获FPS:</value>
+  </data>
+  <data name="CancelLCase" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="RecordSettings_StartRecording" xml:space="preserve">
+    <value>开始记录</value>
+  </data>
+  <data name="RecordSettings_IncludeMonitorScreenshotsToReplayEXPERIMENTAL" xml:space="preserve">
+    <value>包括监视器屏幕截图以重播(实验性)</value>
+  </data>
+  <data name="locoLocaleCode" xml:space="preserve">
+    <value>cn</value>
+  </data>
+  <data name="locoLocaleName" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="ShakeItSettings_OutputTuning" xml:space="preserve">
+    <value>输出调整</value>
+  </data>
+  <data name="ShakeItSettings_EffectsGroup" xml:space="preserve">
+    <value>效果组</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_RemoveEffect" xml:space="preserve">
+    <value>效果去除</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_CloneEffect" xml:space="preserve">
+    <value>效果克隆</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_CopyEffectToClipboard" xml:space="preserve">
+    <value>复制效果到剪贴板</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_ResetEffectSettings" xml:space="preserve">
+    <value>重置效果设置</value>
+  </data>
+  <data name="ShakeItSettings_IncreaseOverallGain" xml:space="preserve">
+    <value>增加总体增益</value>
+  </data>
+  <data name="ShakeItSettings_DecreaseOverallGain" xml:space="preserve">
+    <value>降低总体增益</value>
+  </data>
+  <data name="ShakeItSettings_ConnectedXChannelsAvailable" xml:space="preserve">
+    <value>已连接({0}个通道可用)</value>
+  </data>
+  <data name="ShakeItSettings_Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="ShakeItSettings_Stereo" xml:space="preserve">
+    <value>左/右</value>
+  </data>
+  <data name="ShakeItSettings_StereoFR" xml:space="preserve">
+    <value>前/后</value>
+  </data>
+  <data name="ShakeItSettings_4Channels" xml:space="preserve">
+    <value>角落</value>
+  </data>
+  <data name="ShakeItSettings_CustomChannelMapUpTo8Channels" xml:space="preserve">
+    <value>自定义频道地图(最多8个频道)</value>
+  </data>
+  <data name="ShakeItSettings_ConnectionError" xml:space="preserve">
+    <value>连接错误</value>
+  </data>
+  <data name="ShakeItSettings_Disconnected" xml:space="preserve">
+    <value>断开的</value>
+  </data>
+  <data name="ShakeItSettings_XMotorsConnected" xml:space="preserve">
+    <value>{0} 电机连接</value>
+  </data>
+  <data name="ShakeItSettings_ThisEffectIsNotSupportedOnTheCurrentGame" xml:space="preserve">
+    <value>当前游戏不支持该效果</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_EditDescription" xml:space="preserve">
+    <value>编辑说明</value>
+  </data>
+  <data name="ShakeItSettings_DragEffectsHereToAddThemToTheGroup" xml:space="preserve">
+    <value>将效果拖到此处以将其添加到组中</value>
+  </data>
+  <data name="ShakeItSettings_AVAILABLEEFFECTS" xml:space="preserve">
+    <value>可用效果</value>
+  </data>
+  <data name="ShakeItSettings_ADDALL" xml:space="preserve">
+    <value>全部添加</value>
+  </data>
+  <data name="ShakeItSettings_ResponseCurve" xml:space="preserve">
+    <value>响应曲线</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ShakeItSettings_EditResponseCurveInstructions" xml:space="preserve">
+    <value>左键单击:添加控制点 | 右键单击一个点:删除控制点 | 鼠标拖动以移动点</value>
+  </data>
+  <data name="ShakeItSettings_EditResponseCurve" xml:space="preserve">
+    <value>编辑响应曲线</value>
+  </data>
+  <data name="SaveLCase" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="GmailPlugin_PasswordMustBeGeneratedWithTheFollowingForm" xml:space="preserve">
+    <value>密码必须使用以下格式生成:</value>
+  </data>
+  <data name="GmailPlugin_GeneratePassword" xml:space="preserve">
+    <value>产生密码</value>
+  </data>
+  <data name="GmailPlugin_Login" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="GmailPlugin_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>连接上的</value>
+  </data>
+  <data name="GmailPlugin_LastMail" xml:space="preserve">
+    <value>上一封邮件:</value>
+  </data>
+  <data name="GmailPlugin_YouCanUseGmailPluginPropertiesInYourDashs" xml:space="preserve">
+    <value>您可以在Dash中使用Gmail插件属性</value>
+  </data>
+  <data name="CONTROLSUpperCase" xml:space="preserve">
+    <value>控制项</value>
+  </data>
+  <data name="ThrustmasterSettings_NoThrustmasterWheelFound" xml:space="preserve">
+    <value>找不到 Thrustmaster 方向盘</value>
+  </data>
+  <data name="ThrustmasterSettings_SaveAndRestoreProfilesPerGame" xml:space="preserve">
+    <value>保存和恢复每个配置文件</value>
+  </data>
+  <data name="ThrustmasterSettings_OverallGain" xml:space="preserve">
+    <value>力反馈总体增益</value>
+  </data>
+  <data name="ThrustmasterSettings_ConstantForce" xml:space="preserve">
+    <value>持续力度</value>
+  </data>
+  <data name="ThrustmasterSettings_PeriodicForce" xml:space="preserve">
+    <value>瞬间力度</value>
+  </data>
+  <data name="ThrustmasterSettings_SpringForce" xml:space="preserve">
+    <value>回弹力度</value>
+  </data>
+  <data name="ThrustmasterSettings_DamperForce" xml:space="preserve">
+    <value>阻尼力度(也会影响方向盘的重量)</value>
+  </data>
+  <data name="ThrustmasterSettings_FromWheel" xml:space="preserve">
+    <value>由方向盘设置</value>
+  </data>
+  <data name="ThrustmasterSettings_FromGame" xml:space="preserve">
+    <value>由游戏设置(建议)</value>
+  </data>
+  <data name="ThrustmasterSettings_PROFILES" xml:space="preserve">
+    <value>配置文件</value>
+  </data>
+  <data name="ThrustmasterSettings_WHEELROTATION" xml:space="preserve">
+    <value>方向盘旋转角度</value>
+  </data>
+  <data name="ThrustmasterSettings_FEEDBACK" xml:space="preserve">
+    <value>意见反馈</value>
+  </data>
+  <data name="ThrustmasterSettings_CENTERING" xml:space="preserve">
+    <value>自动对中设置</value>
+  </data>
+  <data name="MappingPicker_Source" xml:space="preserve">
+    <value>来源</value>
+  </data>
+  <data name="MappingPicker_InputMode" xml:space="preserve">
+    <value>输入方式</value>
+  </data>
+  <data name="MappingPicker_TriggerActionNow" xml:space="preserve">
+    <value>立即触发动作</value>
+  </data>
+  <data name="MappingPicker_PressInputForAutomaticSelection" xml:space="preserve">
+    <value>(按输入可自动选择)</value>
+  </data>
+  <data name="MappingPicker_MappingPicker" xml:space="preserve">
+    <value>映射选择器</value>
+  </data>
+  <data name="MobileAccessAssistant_OR" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="MobileAccessAssistant_TroubleshotingTip" xml:space="preserve">
+    <value>不行吗？ 确保您的防火墙允许SimHub传入连接。</value>
+  </data>
+  <data name="MobileAccessAssistant_DashStudioMobileAccess" xml:space="preserve">
+    <value>Dash Studio移动访问</value>
+  </data>
+  <data name="MobileAccessAssistant_TypeInYourMobileBrowserTheFollowingURL" xml:space="preserve">
+    <value>在您的移动浏览器中输入以下URL</value>
+  </data>
+  <data name="MobileAccessAssistant_ScanTheFollowingQRCODE" xml:space="preserve">
+    <value>扫描以下
+二维码</value>
+  </data>
+  <data name="ShakeItSettings_HighPassFilterHZ" xml:space="preserve">
+    <value>高通滤波器(HZ)</value>
+  </data>
+  <data name="ShakeItSettings_LowPassFilterHZ" xml:space="preserve">
+    <value>低通滤波器(HZ)</value>
+  </data>
+  <data name="OverlayEditor_LayoutName" xml:space="preserve">
+    <value>布局名称</value>
+  </data>
+  <data name="ImportDash_DashboardImport" xml:space="preserve">
+    <value>仪表板导入</value>
+  </data>
+  <data name="ImportDash_ImportIntoSimHubLibraryButton" xml:space="preserve">
+    <value>导入SimHub库</value>
+  </data>
+  <data name="ImportDash_SIMHUBDASHSTUDIOTitle" xml:space="preserve">
+    <value>SIMHUB DASH工作室</value>
+  </data>
+  <data name="ShakeItSettings_Threshold" xml:space="preserve">
+    <value>阈值 (%)</value>
+  </data>
+  <data name="ShakeItSettings_MinimumForce" xml:space="preserve">
+    <value>最小力 (%)</value>
+  </data>
+  <data name="ShakeItSettings_ProfileName" xml:space="preserve">
+    <value>配置文件名称</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="ShakeItSettings_PROFILEPROPERTIES" xml:space="preserve">
+    <value>配置文件属性</value>
+  </data>
+  <data name="ShakeItSettings_ENABLEEFFECT" xml:space="preserve">
+    <value>启用效果</value>
+  </data>
+  <data name="ShakeItSettings_DeleteEffectTitle" xml:space="preserve">
+    <value>删除效果</value>
+  </data>
+  <data name="ShakeItSettings_DeleteEffectMessage" xml:space="preserve">
+    <value>您确定要删除此效果吗？</value>
+  </data>
+  <data name="ImportDash_TheInstallWasSuccessful" xml:space="preserve">
+    <value>安装成功</value>
+  </data>
+  <data name="ImportDash_DashAlreadyExists" xml:space="preserve">
+    <value>仪表已存在</value>
+  </data>
+  <data name="ImportDash_ThisDashboardAlreadyExistsDoYouWantToOverwriteIt" xml:space="preserve">
+    <value>这个仪表盘已存在，要覆盖吗？</value>
+  </data>
+  <data name="ReplayManager_NoReplayAvailableYet" xml:space="preserve">
+    <value>尚无回放</value>
+  </data>
+  <data name="ReplayManager_ReplayManager" xml:space="preserve">
+    <value>回放管理器</value>
+  </data>
+  <data name="PropertiesCopyName" xml:space="preserve">
+    <value>Copy name</value>
+  </data>
+  <data name="PropertiesCopyValue" xml:space="preserve">
+    <value>复制值</value>
+  </data>
+  <data name="PropertiesPlotValue" xml:space="preserve">
+    <value>Plot value</value>
+  </data>
+  <data name="ControlsLowerCase" xml:space="preserve">
+    <value>控制项</value>
+  </data>
+  <data name="GaugeSettings_ValuesUnder31HzMayNotBehaveAsExpected" xml:space="preserve">
+    <value>低于31Hz的值可能无法达到预期的效果！</value>
+  </data>
+  <data name="GaugeSettings_TACHOMETER" xml:space="preserve">
+    <value>速度计</value>
+  </data>
+  <data name="GaugeSettings_BasicSettings" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="GaugeSettings_HowToDoTachometerBasicCalibration" xml:space="preserve">
+    <value>转速表如何校准？</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxRPMOfTheTachometerIe11For11000" xml:space="preserve">
+    <value>- 设置转速表的最大RPM(即:11为11000)</value>
+  </data>
+  <data name="GaugeSettings_DefineCylindersAccordingToYourTachometerCanBeAdjustedInSomeTachometersToo4CylindersAreRecommended" xml:space="preserve">
+    <value>- 根据转速表定义气缸(也可以在某些转速表中进行调整，建议使用4个气缸)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestMaxRPMAndCheckThatTheNeedleIsCloseToTheMaxRpmTick" xml:space="preserve">
+    <value>- 单击“测试最大转速”并检查指针是否接近最大转速刻度</value>
+  </data>
+  <data name="GaugeSettings_MaxTachometerRPM" xml:space="preserve">
+    <value>最大转速表RPM</value>
+  </data>
+  <data name="GaugeSettings_TachometerCylinders" xml:space="preserve">
+    <value>转速表气缸</value>
+  </data>
+  <data name="GaugeSettings_AlwaysUseTachometerFullRange" xml:space="preserve">
+    <value>始终在整个范围内使用转速表</value>
+  </data>
+  <data name="GaugeSettings_TachometerZeroOffsetPercentOfCarMaxRPM" xml:space="preserve">
+    <value>转速表的零点偏移量(汽车最大RPM的百分比)</value>
+  </data>
+  <data name="GaugeSettings_TestMaxRPM" xml:space="preserve">
+    <value>测试最高转速</value>
+  </data>
+  <data name="GaugeSettings_AdvancedCalibration" xml:space="preserve">
+    <value>高级校准</value>
+  </data>
+  <data name="GaugeSettings_NeedleOffset" xml:space="preserve">
+    <value>指针偏移量</value>
+  </data>
+  <data name="GaugeSettings_TestValue" xml:space="preserve">
+    <value>测试值</value>
+  </data>
+  <data name="GaugeSettings_Test0RPM" xml:space="preserve">
+    <value> 测试 @ {0} RPM</value>
+  </data>
+  <data name="GaugeSettings_BOOSTGAUGE" xml:space="preserve">
+    <value>增压表</value>
+  </data>
+  <data name="GaugeSettings_HowToDoBoostGaugeCalibration" xml:space="preserve">
+    <value>增压表如何校准？</value>
+  </data>
+  <data name="GaugeSettings_SetTheMinBoostValueOfTheGaugeIe09" xml:space="preserve">
+    <value>- 设置增压表最小值(即:-0.9)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostMin" xml:space="preserve">
+    <value>- 点击“测试最小增压值”</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheMinimumOutputToMatchTheValue" xml:space="preserve">
+    <value>- 调整最小输出以匹配该值</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostZero" xml:space="preserve">
+    <value>- 点击“测试增压零值”</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheZeroValueOutputToMatchTheValue" xml:space="preserve">
+    <value>- 调整零值输出以匹配该值</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxBoostValueOfTheGaugeIe18" xml:space="preserve">
+    <value>- 设置增压表最大值(即:1.8)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostMax" xml:space="preserve">
+    <value>- 点击“测试最大增压值”</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheMaximumOutputToMatchTheValue" xml:space="preserve">
+    <value>- 调整最大输出以匹配该值</value>
+  </data>
+  <data name="GaugeSettings_ClickAgainOnTestBoostMaxToDisableTestMode" xml:space="preserve">
+    <value>- 再次单击“测试最大增压值”以禁用测试模式</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMinimum" xml:space="preserve">
+    <value>增压表最小值</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMinimumOutput" xml:space="preserve">
+    <value>最小增压值输出</value>
+  </data>
+  <data name="GaugeSettings_BoostZeroOutput" xml:space="preserve">
+    <value>增压零值输出</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMaximumPressure" xml:space="preserve">
+    <value>增压表最大值</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMaximumOutput" xml:space="preserve">
+    <value>最大增压值输出</value>
+  </data>
+  <data name="GaugeSettings_AlwaysUseBoostGaugeFullRange" xml:space="preserve">
+    <value>始终使用满量程的增压表</value>
+  </data>
+  <data name="GaugeSettings_TestBoostMin" xml:space="preserve">
+    <value>测试最小增压值</value>
+  </data>
+  <data name="GaugeSettings_TestBoostZero" xml:space="preserve">
+    <value>测试增压零值</value>
+  </data>
+  <data name="GaugeSettings_TestBoostMax" xml:space="preserve">
+    <value>测试最大增压值</value>
+  </data>
+  <data name="GaugeSettings_SPEEDOMETERGAUGE" xml:space="preserve">
+    <value>速度表</value>
+  </data>
+  <data name="GaugeSettings_HowToDoSpeedoGaugeCalibration" xml:space="preserve">
+    <value>速度表如何校准？</value>
+  </data>
+  <data name="GaugeSettings_MakeSureToConfigureYourPreferredSpeedUnitInSimhubSettings" xml:space="preserve">
+    <value>- 确保在Simhub设置中配置首选速度单位</value>
+  </data>
+  <data name="GaugeSettings_SetTheMinSpeedoValueOfTheGaugeIe0" xml:space="preserve">
+    <value>- 设置速度表最小值(即:0)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestSpeedoMin" xml:space="preserve">
+    <value>- 点击“测试速度表最小值”</value>
+  </data>
+  <data name="GaugeSettings_ClickAgainOnTestSpeedoMaxToDisableTestMode" xml:space="preserve">
+    <value>- 再次单击“测试速度表最大值”以禁用测试模式</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestSpeedoMax" xml:space="preserve">
+    <value>- 点击“测试速度表最大值”</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxSpeedoValueOfTheGaugeIe220" xml:space="preserve">
+    <value>- 设置速度表最大值(即:220)</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMinimumsSpeed" xml:space="preserve">
+    <value>速度表最小速度</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMinimumOutput" xml:space="preserve">
+    <value>速度表最小输出</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMaximumSpeed" xml:space="preserve">
+    <value>速度表最大速度</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMaximumOutput" xml:space="preserve">
+    <value>速度表最大输出</value>
+  </data>
+  <data name="GaugeSettings_DisableOutputWhenUnderMinimumSpeed" xml:space="preserve">
+    <value>最低速度时禁用输出</value>
+  </data>
+  <data name="GaugeSettings_TestSpeedoMin" xml:space="preserve">
+    <value>测试速度表最小值</value>
+  </data>
+  <data name="GaugeSettings_TestSpeedoMax" xml:space="preserve">
+    <value>测试速度表最大值</value>
+  </data>
+  <data name="GaugeSettings_FUELGAUGE" xml:space="preserve">
+    <value>油量表</value>
+  </data>
+  <data name="GaugeSettings_TEMPERATUREGAUGE" xml:space="preserve">
+    <value>温度表</value>
+  </data>
+  <data name="GaugeSettings_CONSUMPTIONGAUGE" xml:space="preserve">
+    <value>轮胎磨损</value>
+  </data>
+  <data name="RequiresARestart" xml:space="preserve">
+    <value>需要重新启动</value>
+  </data>
+  <data name="GameConfigurationManager_YouCanAlsoConfigureTheGameManually" xml:space="preserve">
+    <value>您也可以手动配置游戏:</value>
+  </data>
+  <data name="ADD" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="ShakeItSettings_ChooseEffectToAdd" xml:space="preserve">
+    <value>选择要添加的效果</value>
+  </data>
+  <data name="ShakeItSettings_StoreGlobalGainInProfile" xml:space="preserve">
+    <value>在配置文件中存储全局增益</value>
+  </data>
+  <data name="ShakeItSettings_ProfileContent" xml:space="preserve">
+    <value>内容简介</value>
+  </data>
+  <data name="GameList_Button_SortAlpha" xml:space="preserve">
+    <value>Sort alpha.</value>
+  </data>
+  <data name="StartMode.GameList" xml:space="preserve">
+    <value>游戏列表</value>
+  </data>
+  <data name="StartMode.LastTab" xml:space="preserve">
+    <value>最后一个标签</value>
+  </data>
+  <data name="StartMode.SpecificPlugin" xml:space="preserve">
+    <value>插件</value>
+  </data>
+  <data name="PluginDescription_GraphicalDashPlugin" xml:space="preserve">
+    <value>允许在显示器，电话，平板电脑或USBD480上构建并运行Dash/叠加层</value>
+  </data>
+  <data name="PluginName_Aida64Plugin" xml:space="preserve">
+    <value>Aida64连接器</value>
+  </data>
+  <data name="PluginDescription_Aida64Plugin" xml:space="preserve">
+    <value>连接到Aida64并提供系统数据</value>
+  </data>
+  <data name="PluginName_PSELedsPlugin" xml:space="preserve">
+    <value>Precision Sim Engineering Leds 显示插件</value>
+  </data>
+  <data name="PluginDescription_PSELedsPlugin" xml:space="preserve">
+    <value>连接到Precision Sim Engineering LED显示屏</value>
+  </data>
+  <data name="ShakeItSettings_GeneratedSoundGain" xml:space="preserve">
+    <value>产生的声音增益</value>
+  </data>
+  <data name="ShakeItSettings_SoundCardVolume" xml:space="preserve">
+    <value>声卡音量</value>
+  </data>
+  <data name="ShakeItSettings_OutputFiltering" xml:space="preserve">
+    <value>输出过滤</value>
+  </data>
+  <data name="ShakeItSettings_GlobalGainControl" xml:space="preserve">
+    <value>全局增益控制</value>
+  </data>
+  <data name="SettingsAuthor" xml:space="preserve">
+    <value>作者 : </value>
+  </data>
+  <data name="SettingsUIScaling" xml:space="preserve">
+    <value>UI缩放比例(％)</value>
+  </data>
+  <data name="SettingsDefaultStartupPlugin" xml:space="preserve">
+    <value>默认启动插件</value>
+  </data>
+  <data name="SettingsDefaultStartupTab" xml:space="preserve">
+    <value>默认启动选项卡</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_SaveAndRestoreOpenDashboards" xml:space="preserve">
+    <value>保存并恢复开放的仪表盘</value>
+  </data>
+  <data name="PluginName_InfluxDBPlugin" xml:space="preserve">
+    <value>插件名称_Influx数据库插件</value>
+  </data>
+  <data name="PluginDescription_InfluxDBPlugin" xml:space="preserve">
+    <value>插件说明_Influx数据库插件</value>
+  </data>
+  <data name="GraphicalDashPluginList_LEDSLayoutsConfiguration" xml:space="preserve">
+    <value>布局配置</value>
+  </data>
+  <data name="GraphicalDashPluginList_PRECISIONSIMENGINEERINGLEDBACKPLATE" xml:space="preserve">
+    <value>Precision Sim Engineering LED背板</value>
+  </data>
+  <data name="GraphicalDashPluginList_LedBackplateEnabled" xml:space="preserve">
+    <value>启用LED背板</value>
+  </data>
+  <data name="GraphicalDashPluginList_ConnectToSpecificUSD480Screen" xml:space="preserve">
+    <value>连接到特定的USD480屏幕</value>
+  </data>
+  <data name="GraphicalDashPluginList_USBD480ScreenSN" xml:space="preserve">
+    <value>屏幕序列号:</value>
+  </data>
+  <data name="GameConfigurationManager_IpAddress" xml:space="preserve">
+    <value>IP地址</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetryMode" xml:space="preserve">
+    <value>遥测模式</value>
+  </data>
+  <data name="GameConfigurationManager_AddForwardTarget" xml:space="preserve">
+    <value>新增目标</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="PluginName_RGBDriverTestPlugin" xml:space="preserve">
+    <value>插件名称_RGB驱动程序测试插件</value>
+  </data>
+  <data name="PluginDescription_RGBDriverTestPlugin" xml:space="preserve">
+    <value>插件说明_RGB驱动程序测试插件</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>组别</value>
+  </data>
+  <data name="PluginName_NextionTemplateParser" xml:space="preserve">
+    <value>插件名称_Nextion模板解析器</value>
+  </data>
+  <data name="PluginDescription_SerialDashPlugin" xml:space="preserve">
+    <value>对于RGB LED，I2C LCD，TM1638，电机/风扇板和更多的Arduino支持</value>
+  </data>
+  <data name="PluginName_LapHitoryPlugin" xml:space="preserve">
+    <value>统计</value>
+  </data>
+  <data name="PluginDescription_LapHitoryPlugin" xml:space="preserve">
+    <value>显示单圈历史记录和统计信息</value>
+  </data>
+  <data name="SettingsSystemInfos" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="UseCustomTelemetryRecordDirectory" xml:space="preserve">
+    <value>使用自定义遥测记录目录</value>
+  </data>
+  <data name="TELEMETRYRECORDS" xml:space="preserve">
+    <value>遥测记录</value>
+  </data>
+  <data name="ShowCurrentGameBannerOnTheGameList" xml:space="preserve">
+    <value>在游戏列表上显示当前游戏横幅</value>
+  </data>
+  <data name="EnableDeprecatedEditor" xml:space="preserve">
+    <value>启用不推荐使用的编辑器</value>
+  </data>
+  <data name="RGBLeds" xml:space="preserve">
+    <value>RGB LED</value>
+  </data>
+  <data name="MANAGEYOURRGBLEDS" xml:space="preserve">
+    <value>管理您的RGB LED</value>
+  </data>
+  <data name="TM1638Leds" xml:space="preserve">
+    <value>TM1638 LED</value>
+  </data>
+  <data name="MANAGEYOURTM1638LEDS" xml:space="preserve">
+    <value>管理您的TM1638 LED</value>
+  </data>
+  <data name="ANewLedEditorIsNowAvailableDoYouWantToEnableIt" xml:space="preserve">
+    <value>现在有一个新的led编辑器，您要启用它吗?</value>
+  </data>
+  <data name="EnableNewEditor" xml:space="preserve">
+    <value>启用新编辑器</value>
+  </data>
+  <data name="LowFuelAlertTriggerLaps" xml:space="preserve">
+    <value>燃油不足警报触发 (圈)</value>
+  </data>
+  <data name="RepeatLowFuelAlertEverySeconds" xml:space="preserve">
+    <value>低油警报重复间隔 (秒)</value>
+  </data>
+  <data name="DecrementLowFuelAlertTriggerValue" xml:space="preserve">
+    <value>降低燃油不足警报触发值</value>
+  </data>
+  <data name="IncrementLowFuelAlertTriggerValue" xml:space="preserve">
+    <value>增加燃油不足警报触发值</value>
+  </data>
+  <data name="WaitingForData" xml:space="preserve">
+    <value>等待数据</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>运行</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="GameConfig" xml:space="preserve">
+    <value>游戏配置</value>
+  </data>
+  <data name="DisableOutputDuringSimHubTelemetryReplays" xml:space="preserve">
+    <value>在SimHub遥测重播期间禁用输出</value>
+  </data>
+  <data name="FindAGame" xml:space="preserve">
+    <value>寻找游戏</value>
+  </data>
+  <data name="CloseInTray" xml:space="preserve">
+    <value>关闭托盘</value>
+  </data>
+  <data name="ShakeItSettings_ToggleMute" xml:space="preserve">
+    <value>切换静音</value>
+  </data>
+  <data name="ShakeItSettings_GainChangeSteps" xml:space="preserve">
+    <value>增益变化步长 (%)</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ScanForNewDevicesOnly" xml:space="preserve">
+    <value>仅扫描新设备</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ResetAndScanForNewDevicesNow" xml:space="preserve">
+    <value>清除所有设备和扫描结果</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_7SegGearRedlineBlink" xml:space="preserve">
+    <value>7档指示器红线闪烁</value>
+  </data>
+  <data name="GameList_Ignore" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableUsbDisplay" xml:space="preserve">
+    <value>允许显示</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_VocoreScreen" xml:space="preserve">
+    <value>在VOCORE屏幕显示</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ConvertToDashboard" xml:space="preserve">
+    <value>转换为仪表板</value>
+  </data>
+  <data name="LanguageName" xml:space="preserve">
+    <value>英语</value>
+  </data>
+  <data name="ShakeItSettings_ResetCarTrackCalibration" xml:space="preserve">
+    <value>重置汽车/跟踪校准</value>
+  </data>
+  <data name="ShakeItSettings_FrontLR" xml:space="preserve">
+    <value>前 左/右</value>
+  </data>
+  <data name="ShakeItSettings_RearLR" xml:space="preserve">
+    <value>后 左/右</value>
+  </data>
+  <data name="GraphicalDashPluginList_ConnectToSpecificScreen" xml:space="preserve">
+    <value>连接到特定屏幕</value>
+  </data>
+  <data name="PreventSimhubFocusWhenGameIsFocused" xml:space="preserve">
+    <value>当游戏集中时，防止SimHub获得焦点</value>
+  </data>
+  <data name="ShakeItSettings_UnmuteEffectsAfterSimhubRestart" xml:space="preserve">
+    <value>simhub重启后取消所有静音效果</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ToggleOverlaysVisibility" xml:space="preserve">
+    <value>切换覆盖可见性</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_OverlayLayoutRestart" xml:space="preserve">
+    <value>重新运行叠加布局</value>
+  </data>
+  <data name="PluginDescription_MotionPlugin" xml:space="preserve">
+    <value>控制各种运动系统。</value>
+  </data>
+  <data name="PluginName_CustomSerialPlugin" xml:space="preserve">
+    <value>自定义串行设备</value>
+  </data>
+</root>
